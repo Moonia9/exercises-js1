@@ -1,4 +1,4 @@
-// Strings
+// Strings - Syllabus Exercise
 
 let colors = 'blue, yellow';
 console.log(colors);
