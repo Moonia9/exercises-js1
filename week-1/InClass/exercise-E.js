@@ -7,8 +7,7 @@ const title = "Mrs.";
 const greeting = greetingStart + " " + title + " " + firstName;
 console.log (greeting);
 
-//const greeting1 = 'Hello, my name is' ${name}; 
-//console.log(greeting1);
+
 
 const greetingPersonal = "Heya, my name is";
 const name1 = "Enia-Maria";
@@ -21,5 +20,3 @@ const hobby = "I love drawing";
 const hobby2 = "and dancing";
 const greeting2 = greetingSecond + " " + hobby + " " + hobby2;
 console.log(greeting2);
-//console.log(greeting2.length);
-//console.log(typeof greeting2);
