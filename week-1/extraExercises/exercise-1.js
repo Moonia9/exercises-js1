@@ -1,7 +1,7 @@
 //Exercise 1
 let firstName = "Enia";
 let dayOfBirth = "10.08.1995";
-let dayBirth = 1995;
+let dayBirth = 10;
 console.log(firstName);
 console.log(dayOfBirth);
 console.log(typeof firstName); //string
