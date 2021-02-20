@@ -1,8 +1,11 @@
 // There are syntax errors in this code - can you fix it to pass the tests?
 
-function addNumbers(a b c) {
-    return a + b + c;
+function addNumbers(a ,b, c) {
+    const sum = a + b + c;
+    return sum;
 }
+
+console.log(addNumbers(sum));
 
 function introduceMe(name, age)
 return "Hello, my name is " + name "and I am " age + "years old";
