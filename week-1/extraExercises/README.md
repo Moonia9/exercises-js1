@@ -41,3 +41,26 @@ In exercise-3-arrayBasics.js
 [2, 3, 4, 5] -> [2, 4, 5]
 ["alpha", "gamma", "delta"] -> ["alpha", "beta", "gamma", "delta"]
 [10,-10,-5,-3,2,1] -> [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+
+
+
+ARRAY ITERATION
+In exercise-4-arrayIteration.js
+1. Using a loop, iterate through this array and console.log all of the people.
+2. Write the command to remove "Greg" from the array.
+3. Write the command to remove "James" from the array.
+4. Write the command to add "Matt" to the front of the array.
+5. Write the command to add your name to the end of the array.
+6. Using a loop, iterate through this array and after console.log-ing "Mary", exit from the loop.
+7. Write the command to make a copy of the array using slice. The copy should NOT include "Mary" or "Matt".
+8. Write the command that gives the indexOf where "Mary" is located.
+9. Write the command that gives the indexOf where "Foo" is located (this should return -1).
+10. Redefine the people variable with the value you started with. Using the splice command, remove "Devon" from the array and add "Elizabeth" and "Artie". Your array should look like this when you are done ["Greg", "Mary", "Elizabeth", "Artie", "James"].
+11. Create a new variable called withBob and set it equal to the people array concatenated with the string of "Bob".
+
+OBJECT BASICS
+In exercise-5-objectBasics.js
+//Exercise
+1. Create an object that has your firstName, lastName, and occupation as keys.
+2. Access each value from your object using both dot notation and bracket notation.
+3. Add a key for hobby to your object. Remove the key and value for occupation.
