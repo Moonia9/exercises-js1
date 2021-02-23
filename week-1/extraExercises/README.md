@@ -10,8 +10,7 @@ In exercise-1.js
 5. What is the difference between null and undefined?
 
 
-in exercise-2.js
-
+in exercise-2-booleanLogic.js
 Part2.
 1. What should the above code console.log?
 
@@ -27,3 +26,4 @@ Part 2.1
 Part3.
 1. Research Math.random and write an if statement that console.log's "Over 0.5" if Math.random returns a number greater than 0.5. Otherwise console.log "Under 0.5".
 
+In exercise-3-arrayBasics.js
