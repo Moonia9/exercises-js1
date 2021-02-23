@@ -27,3 +27,14 @@ Part3.
 1. Research Math.random and write an if statement that console.log's "Over 0.5" if Math.random returns a number greater than 0.5. Otherwise console.log "Under 0.5".
 
 In exercise-3-arrayBasics.js
+1. Create an array of your favorite foods (call it favoriteFoods). Make sure it has at least three elements.
+2. Access the second element in favoriteFoods.
+3. Change the last element in favoriteFoods to some other food.
+4. Remove the first element in favoriteFoods and store it in a variable called formerFavoriteFood.
+5. Add a favorite food to the back of the favoriteFoods array.
+6. Add a favorite food to the front of the favoriteFoods array.
+
+7. In the examples below, use splice to convert the first array to the second array:
+[2, 3, 4, 5] -> [2, 4, 5]
+["alpha", "gamma", "delta"] -> ["alpha", "beta", "gamma", "delta"]
+[10,-10,-5,-3,2,1] -> [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
