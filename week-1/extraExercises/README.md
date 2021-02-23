@@ -10,7 +10,8 @@ In exercise-1.js
 5. What is the difference between null and undefined?
 
 
-in exercise-2-booleanLogic.js
+BOOLEAN LOGIC
+in exercise-2-booleanLogic.js 
 Part2.
 1. What should the above code console.log?
 
@@ -23,6 +24,8 @@ Part 2.1
 4. Is the value of secondvariable a "truthy" value? Why?
 5. Is the value of thirdvariable a "truthy" value? Why?
 
+
+ARRAY BASICS
 Part3.
 1. Research Math.random and write an if statement that console.log's "Over 0.5" if Math.random returns a number greater than 0.5. Otherwise console.log "Under 0.5".
 
