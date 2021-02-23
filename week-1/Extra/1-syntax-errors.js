@@ -4,18 +4,21 @@ function addNumbers(a ,b, c) {
     const sum = a + b + c;
     return sum;
 }
+console.log(addNumbers(1, 2, 1));
 
-console.log(addNumbers(sum));
+function introduceMe(name, age){
+return `Hello, my name is ${name} and I am ${age} years old`;
+}
+console.log(introduceMe("Enia", 25));
 
-function introduceMe(name, age)
-return "Hello, my name is " + name "and I am " age + "years old";
 
 function getTotal(a, b) {
-    total = a ++ b;
+    total = a + b;
 
     // Use string interpolation here
-    return "The total is %{total}"
+    return `The total is ${total}`;
 }
+console.log(getTotal(1, 2));
 
 /* ======= TESTS - DO NOT MODIFY =====
 There are some Tests in this file that will help you work out if your code is working.

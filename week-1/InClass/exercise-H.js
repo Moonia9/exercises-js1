@@ -1,3 +1,4 @@
+//Saturday exercises
 function concatenateStrings(firstString, secondString) {
      const concatStrings = firstString + secondString;
      //const concatStrings = `${firstString} + ${secondString}`;
@@ -16,6 +17,8 @@ function concatenateStrings(firstString, secondString) {
         return concatAnswers;
     }
     console.log(helloAgeExercise("Hello Enia,", "you are 25 years old."));
+
+
 
     function helloAge(name, birthYear) {
         const age = 2021 - birthYear;

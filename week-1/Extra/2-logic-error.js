@@ -1,17 +1,21 @@
 // The syntax for this function is valid but it has an error, find it and fix it.
 
 function trimWord(word) {
-  return wordtrim();
+  return word.trim();
+  
 }
+console.log(trimWord("  x "));
 
 function getWordLength(word) {
-  return "word".length()
+  return word.length;
 }
+console.log(getWordLength("word"));
 
 function multiply(a, b, c) {
-  a * b * c;
-  return;
+  
+  return a * b * c;
 }
+console.log(multiply(1,97863, 700));
 
 /* ======= TESTS - DO NOT MODIFY =====
 There are some Tests in this file that will help you work out if your code is working.
