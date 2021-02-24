@@ -88,3 +88,25 @@ In exercise-7-objectExercises.js
 
 FUNCTION BASICS
 In exercise-8-functionBasics.js
+//Exercises
+1. Write a function called myName that logs your full name. Save your full name to a variable inside of the function body, then use console.log to print your name to the console
+2. Create an array called favoriteFoods which contains the strings "pizza" and "ice cream".
+
+Write a function called randomFood. The function should use Math.random to randomly choose a favorite food in your favoriteFoods array to return. For example, your function will return either pizza or ice cream, depending on what you get back from Math.random.
+3. Create a variable called numbers which is an array that contains the numbers 1 through 10.
+
+Write a function called displayOddNumbers which iterates over the numbers array and console.logs out all of the numbers that are odd.
+4. Write a function called displayEvenNumbers which iterates over the numbers array and console.logs out all of the numbers that are even. 
+Create a function called returnFirstOddNumber which iterates over the numbers array and returns the first odd number it finds
+5. Create a function called returnFirstEvenNumber which iterates over the numbers array and returns the first even number it finds
+6. Create a function called returnFirstHalf which returns the first half of the numbers array
+7. Create a function called returnSecondHalf which returns the second half of the numbers array
+
+FUNCTION PARAMETERS AND SCOPE
+In exercise-9-functionParametersAndScope.js
+1. Make a function for add, subtract, multiply, and divide. Each of these functions should accept two parameters and return the sum, difference, product and quotient.
+2. Write a function called sayHello that takes in a string as a parameter. If the parameter passed to the function is your first name, it should return "Hello Boss", but if the parameter passed to the function is any other name, it should return the string "Hello" and the name parameter.
+3. Write a function called average which accepts an array as a parameter. The function should return the average of all of the numbers in the array (you can assume that the array passed to the function will contain only numbers)
+4. Write a function called createStudent, which accepts two parameters both of which are strings. The function should return an object with the keys firstName and lastName
+5. Using your createStudent function, create three students and save them each in a variable. Then create a variable called students, which is an array that will store your three students
+6. Write a function called findStudentByFirstName, which accepts one parameter, a string. This function should iterate through the students array you just made and if the parameter passed to the function is the same as one of the first name's of the students, the function should return true. Otherwise it should return false. This function should be case insensitive so that you can search successfully regardless of capitalization
