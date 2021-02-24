@@ -22,7 +22,7 @@ console.log(`Sum is equal to ${a+b}`);
 
 //Exercise 5
 let noValue = undefined; //undefined = value not assigned
-let emailAddress = null; //null = interntional absence of data
+let emailAddress = null; //null = intentional absence of data
 console.log(noValue);
 console.log(emailAddress);
 
