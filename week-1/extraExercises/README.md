@@ -85,3 +85,6 @@ In exercise-7-objectExercises.js
 5. Using a loop, iterate through the languages array and console.log all of the languages.
 6. Using a loop, console.log all of the keys in the programming object.
 7. Using a loop, console.log all of the values in the programming object.
+
+FUNCTION BASICS
+In exercise-8-functionBasics.js
