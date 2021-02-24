@@ -58,9 +58,30 @@ In exercise-4-arrayIteration.js
 10. Redefine the people variable with the value you started with. Using the splice command, remove "Devon" from the array and add "Elizabeth" and "Artie". Your array should look like this when you are done ["Greg", "Mary", "Elizabeth", "Artie", "James"].
 11. Create a new variable called withBob and set it equal to the people array concatenated with the string of "Bob".
 
+
+
 OBJECT BASICS
 In exercise-5-objectBasics.js
 //Exercise
 1. Create an object that has your firstName, lastName, and occupation as keys.
 2. Access each value from your object using both dot notation and bracket notation.
 3. Add a key for hobby to your object. Remove the key and value for occupation.
+
+
+OBJECT ITERATION
+In exercise-6-objectIteration.js
+1. Given the following object below, write code to print the value then the key to the console separated by '=>'
+2. Add a key for your name, and a value for your favorite hobby to the namesAndHobbies object.
+
+3. Write an if statement that console.logs your name and hobby to the console if the key of your name is contained in the object.
+
+
+OBJECT EXERCISES
+In exercise-7-objectExercises.js
+1. Write the command to add the language "Go" to the end of the languages array.
+2. Change the difficulty to the value of 7.
+3. Using the delete keyword, write the command to remove the jokes key from the programming object.
+4. Write the command to add a new key called isFun and a value of true to the programming object.
+5. Using a loop, iterate through the languages array and console.log all of the languages.
+6. Using a loop, console.log all of the keys in the programming object.
+7. Using a loop, console.log all of the values in the programming object.
