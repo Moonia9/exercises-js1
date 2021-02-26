@@ -31,7 +31,6 @@ function negativeOrPositive(number1, number2, number3){
     return "positive";
   }
   
-
 }
 console.log(negativeOrPositive(5, -1, 0));
 

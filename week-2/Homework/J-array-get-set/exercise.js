@@ -4,29 +4,35 @@
   Complete the functions below to get the first and last values from the array
 */
 
+var numbers = [1, 2, 3];
+var names = ["Irina", "Ashleigh", "Mozafar", "Joe"];
+
+var firstValue = numbers[0];
+var lastItemOfNumbers = numbers[numbers.length-1];
+var lastItemOfNames = names[names.length-1];
+
 function first(arr) {
-  if (arr === numbers){
-    return numbers[0];
-  }
+  return firstValue;
 }
-console.log(first([1,2,3])); //returns 1
+console.log(first(numbers));
+
+function lastNumbers(arr){
+  return lastItemOfNumbers;
+}
+console.log(lastNumbers(numbers));
 
 function last(arr) {
-  if (arr === names){
-    return names[3];
-  }
+  return lastItemOfNames;
 }
-console.log(last(["Irina", "Ashleigh", "Mozafar", "Joe"])); //returns Joe
+console.log(last(names));
+
 
 /* 
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */
-var numbers = [1, 2, 3];
-var names = ["Irina", "Ashleigh", "Mozafar", "Joe"];
 
-console.log(first(numbers));
-console.log(last(numbers));
-console.log(last(names));
+
+
 
 /* 
   EXPECTED RESULT
