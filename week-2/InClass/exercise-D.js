@@ -22,4 +22,4 @@ function myMoodyFunction(moody){
         return "I am sorry.I hope your day gets better";
     }
 }
-console.log(myMoodyFunction("sup"));
+console.log(myMoodyFunction("well.."));

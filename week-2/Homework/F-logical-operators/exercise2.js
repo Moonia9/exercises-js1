@@ -46,17 +46,7 @@ function isShortName(name){
     return false;
   }
 }
-console.log(isShortName("Daniel"));
-
-/*function startsWithD(name,string){
-  if (name === string.charAt(0)){
-    console.log(`Does ${name} start with ${string}?`);
-    return true;
-  } else {
-    return false;
-  }
-}
-console.log(startsWithD("Daniel"));*/
+console.log(isShortName("Daniel")); //true
 
 function startsWithD1(string){
   return string.charAt(0).toUpperCase() + string.slice(1);

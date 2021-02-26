@@ -30,10 +30,6 @@ console.log(last(names));
 /* 
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */
-
-
-
-
 /* 
   EXPECTED RESULT
   ---------------

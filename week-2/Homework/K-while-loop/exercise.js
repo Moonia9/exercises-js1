@@ -7,8 +7,6 @@
 */
 
 let n = 10;
-
-
 function sumTillNum(num){
 	
 	

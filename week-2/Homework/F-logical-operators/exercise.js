@@ -20,8 +20,8 @@ console.log(HtmlVsCssLevel(8,4)); //returns true
 
 // Finish the statement to check whether HTML, CSS knowledge are above 5
 // (hint: use the comparison operator from before)
-var htmlLevelAbove5;
-var cssLevelAbove5;
+var htmlLevelAbove5 ;
+var cssLevelAbove5 ;
 
 function htmlLevelAbove5Checker(htmlLevelAbove5){
   if (htmlLevelAbove5 > 5){
@@ -32,7 +32,7 @@ function htmlLevelAbove5Checker(htmlLevelAbove5){
 }
 console.log(htmlLevelAbove5Checker(8)); //returns true as 8>5
 
-function cssLevelAbove5Checker (cssAndHtmlAbove5){
+function cssLevelAbove5Checker (cssLevelAbove5){
   if (cssLevelAbove5 > 5){
     return true;
   } else {
@@ -55,10 +55,10 @@ function levelCheckerHtmlAndCss (htmlLevelAbove5, cssLevelAbove5){
   }
 }
 console.log(levelCheckerHtmlAndCss(8,4)); //returns false as 8>5 but 4<5 --> false as one does not fulfill the condition 
-console.log(levelCheckerHtmlAndCss(8,6)); //returns true as 8>5 && 6>5
+
 
 function levelCheckerHtmlOrCss (htmlLevelAbove5, cssLevelAbove5){
-  if (htmlLevelAbove5 > 5 || cssOrHtmlAbove5 > 5){
+  if (htmlLevelAbove5 > 5 || cssLevelAbove5 > 5){
     return true;
   } else {
     return false;
