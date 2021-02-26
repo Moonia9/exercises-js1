@@ -7,6 +7,9 @@
 */
 
 var numbers = [1, 2, 3]; // Don't change this array literal declaration
+arr[3] = 4;
+console.log(numbers);
+
 
 /* 
   DO NOT EDIT BELOW THIS LINE

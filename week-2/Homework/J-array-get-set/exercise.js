@@ -5,12 +5,18 @@
 */
 
 function first(arr) {
-  return; // complete this statement
+  if (arr === numbers){
+    return numbers[0];
+  }
 }
+console.log(first([1,2,3])); //returns 1
 
 function last(arr) {
-  return; // complete this statement
+  if (arr === names){
+    return names[3];
+  }
 }
+console.log(last(["Irina", "Ashleigh", "Mozafar", "Joe"])); //returns Joe
 
 /* 
   DO NOT EDIT BELOW THIS LINE

@@ -14,5 +14,5 @@ const studentsMigracode = [
 ]
 
 for (let i=0; i<studentsMigracode.length; i++){
-    console.log(i);
+    console.log(studentsMigracode[i]);
 }

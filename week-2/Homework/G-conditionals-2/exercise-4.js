@@ -9,8 +9,15 @@
 */
 
 function containsCode(sentence) {
-
+  if(sentence.includes("code")){
+    return true;
+  } else {
+    return false;
+  }
 }
+console.log(containsCode("code your future")); //returns true
+console.log(containsCode("draw your future")); //returns false
+console.log(containsCode("design your future")); //returns false
 
 /* 
 DO NOT EDIT BELOW THIS LINE
