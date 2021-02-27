@@ -26,7 +26,7 @@ var enoughSpaceInRoom = peopleCount <= roomMaxCapacity; // finish this statement
 console.log("Is there enough space in the room for all students and mentors?", enoughSpaceInRoom);
 /*
 function roomCapacityChecker (roomMaxCapacity, enoughSpaceInRoom){
-  if (roomMaxCapacity === 25){
+  if (roomMaxCapacity <= roomMaxCapacity){
     return enoughSpaceInRoom;
   }
 }
