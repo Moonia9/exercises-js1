@@ -8,33 +8,37 @@
 //studentAndMentorChecker
 var studentCount = 16;
 var mentorCount = 9;
-var moreStudentsThanMentors = true; // finish this statement
-
+var moreStudentsThanMentors = studentCount > mentorCount; // finish this statement
+console.log("Are there more students than mentors?", moreStudentsThanMentors);
+/*
 function studentAndMentorChecker (studentCount, mentorCount){
   if (studentCount > mentorCount){
     return moreStudentsThanMentors;
   }
 }
-console.log(studentAndMentorChecker(16,9));
+console.log(studentAndMentorChecker(16,9));*/
 
 
 //roomCapacityChecker
 var roomMaxCapacity = 25;
-var enoughSpaceInRoom = true; // finish this statement
-
+let peopleCount = studentCount + mentorCount;
+var enoughSpaceInRoom = peopleCount <= roomMaxCapacity; // finish this statement
+console.log("Is there enough space in the room for all students and mentors?", enoughSpaceInRoom);
+/*
 function roomCapacityChecker (roomMaxCapacity, enoughSpaceInRoom){
   if (roomMaxCapacity === 25){
     return enoughSpaceInRoom;
   }
 }
-console.log(roomCapacityChecker(25, true));
+console.log(roomCapacityChecker(25, true));*/
 
 
 //nameChecker
 var personA = "Daniel";
 var personB = "Irina";
-var sameName = false; // finish this statement
-
+var sameName = personA === personB; // finish this statement
+console.log("Do person A and person B have the same name?",sameName);
+/*
 function nameChecker (personA, personB){
   if (personA === personB){
     return true;
@@ -42,7 +46,7 @@ function nameChecker (personA, personB){
     return false;
   }
 }
-console.log(nameChecker("Daniel", "Irina"));
+console.log(nameChecker("Daniel", "Irina"));*/
 
 /* 
   DO NOT EDIT BELOW THIS LINE
