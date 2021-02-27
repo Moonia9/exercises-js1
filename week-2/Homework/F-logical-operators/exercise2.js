@@ -6,55 +6,29 @@
 */
 
 function isNegative(a) {
- if (a<0){
-   console.log(`Is ${a} a negative number?`);
-   return true;
- } else {
-   return false;
- }
+  console.log(`Is ${a} a negative number?`);
+   return a<0;
 }
-console.log(isNegative(-10)); //true
 
-
-//Writing the function again for the number 5
-function isNegativeChecker(b) {
-  if (b<0){
-    console.log(`Is ${b} a negative number?`);
-    return true;
-  } else {
-    return false;
-  }
- }
- console.log(isNegativeChecker(5)); //false
- 
 /* */
 function isBetween5and10(number){
-  if(number < 5 || number <= 10){
-    console.log(`Is ${number} in the range 5-10?`);
-    return true;
-  } else{
-    return false;
-  }
+  console.log(`Is ${number} in the range 5-10?`);
+  return number >= 5 && number <= 10;
 }
-console.log(isBetween5and10(10)); //true
 
 function isShortName(name){
-  if (name.length <=6){
-    console.log(`Is ${name} a short name?`);
-    return true;
-  } else {
-    return false;
-  }
+  console.log(`Is ${name} a short name?`);
+   return name.length <=6;
 }
-console.log(isShortName("Daniel")); //true
 
 function startsWithD1(string){
   return string.charAt(0).toUpperCase() + string.slice(1);
 }
 console.log(startsWithD("daniel")); //returns Daniel
 
+
 function startsWithD(name){
-  return name.charAt(0) === name.charAt(0).toUpperCase()
+  return name.charAt(0) === "D";
 }
 console.log(startsWithD("Daniel")); //returns true
 

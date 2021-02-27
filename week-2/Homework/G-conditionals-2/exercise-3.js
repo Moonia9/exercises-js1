@@ -9,23 +9,18 @@
 */
 
 function calculateGrade(mark) {
-if (mark >= 80){
-  return "A";
-} 
-else if (mark <80 && mark >60){
-  return "B";
-}
-else if ((mark =60 || mark <60) && (mark !=50 && mark <50)){
-  return "C";
-} else {
+  if (mark >= 80){
+    return "A";
+  } 
+  if (mark < 80 && mark > 60){
+    return "B";
+  }
+  if ((mark <= 60) && (mark > 50)){
+    return "C";
+  } 
   return "F";
+
 }
-}
-console.log(calculateGrade(35)); //F
-console.log(calculateGrade(49)); //F
-console.log(calculateGrade(90)); //A
-console.log(calculateGrade(70)); //B
-console.log(calculateGrade(55)); //F
 
 /* 
 DO NOT EDIT BELOW THIS LINE

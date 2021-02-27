@@ -12,17 +12,13 @@ var lastItemOfNumbers = numbers[numbers.length-1];
 var lastItemOfNames = names[names.length-1];
 
 function first(arr) {
-  return firstValue;
+  return arr[0];
 }
 console.log(first(numbers));
 
-function lastNumbers(arr){
-  return lastItemOfNumbers;
-}
-console.log(lastNumbers(numbers));
 
 function last(arr) {
-  return lastItemOfNames;
+  return arr[arr.length-1];
 }
 console.log(last(names));
 

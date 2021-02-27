@@ -10,7 +10,7 @@ function negativeOrPositive(number) {
  if(number < 0){
    return "negative";
  } 
- if(number >0){
+ if(number >= 0){
    return "positive";
  }
 }
@@ -23,16 +23,7 @@ var number1 = 5;
 var number2 = -1;
 var number3 = 0;
 
-function negativeOrPositive(number1, number2, number3){
-  if((number1 < 0) || (number2 < 0)){
-    return "negative";
-  } 
-  if((number1 > 0) || (number2 > 0) || (number3 === 0) ){
-    return "positive";
-  }
-  
-}
-console.log(negativeOrPositive(5, -1, 0));
+
 
 
 
