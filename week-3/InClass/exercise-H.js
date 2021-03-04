@@ -1,3 +1,4 @@
+//Syllabus exercise
 const names = ["Daniel", "James", "Irina", "Mozafar", "Ashleigh"];
 
 function isLongName(name) {
@@ -8,9 +9,8 @@ function isLongName(name) {
   console.log(names.find(isLongName)); //is only returning the first one!!!
   console.log(names.filter(isLongName)); //returns all of them
 
-
+//Exercise H
   const namesArray = ["Adria", "Nuria", "Joan", "Gerard", "Ferran"];
-
   function isMyNameInTheArray(name, array){
       if(array.includes(name)){
           return "Found me";

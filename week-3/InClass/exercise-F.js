@@ -2,15 +2,15 @@ function calculateTheAge(birthYear){
     return 2021 - birthYear;
 }
 
-function canDrive(birthYear){
+function legalAgeForDriving(birthYear){
     const age = calculateTheAge(birthYear);
     if(age >= 17){
-        console.log(`Born in ${birthYear} can drive`);
+        return `Born in ${birthYear} can drive`;
     } else {
-        console.log(`Born in ${birthYear} can drive in ${17 - age} years`);
+        return `Born in ${birthYear}, can drive in ${17-age}`;
     }
 }
 
-const birthYears = [1964, 2008, 1999, 2005, 1978, 1985, 1919];
-
-birthYears.forEach(canDrive);
+birthYears = [ 1964, 2008, 1999, 2005, 1978, 1985, 1919 ];
+let canDrive = birthYears.forEach(legalAgeForDriving);
+console.log(canDrive);
