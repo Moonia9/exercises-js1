@@ -44,6 +44,6 @@ console.log(
   ---------------
   Is Html knowledge above 5? true
   Is CSS knowledge above 5? false
-  Is Html And CSS knowledge above 5? false
   Is either Html or CSS knowledge above 5? true
+  Is Html And CSS knowledge above 5? false
 */

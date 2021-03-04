@@ -14,10 +14,9 @@ function roleChecker(name, role){
     console.log (`Hi, I'm ${name}, I'm a mentor`);
   } else {
     console.log (`Hi, I'm ${name}, I'm a student`);
-  } 
-  
+  }  
 }
-//console.log(roleChecker());
+
 roleChecker(name, danielsRole);
 
 /* 
@@ -25,3 +24,4 @@ EXPECTED RESULT
 ---------------
 Hi, I'm Daniel, I'm a mentor.
 */
+

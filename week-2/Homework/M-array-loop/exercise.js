@@ -56,7 +56,8 @@ function printWordWithT (words){
     if(element[0] === "T"){
       console.log(index, element);
     }
-   } );
+   } 
+   );
  }
 
  tStarter(daysOfWeek);

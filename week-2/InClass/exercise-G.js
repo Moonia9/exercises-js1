@@ -7,8 +7,3 @@ for(let i =countdown; i>=0 ; i--){
 
 console.log(apolloCountdownMessage);
 
-/*let i=countdown;
-while (i >= 0) {
-    console.log(i);
-    i--;
-}*/

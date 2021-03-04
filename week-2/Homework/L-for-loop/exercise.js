@@ -17,3 +17,16 @@ function sumTillNum(num){
 
 
 console.log("Sum from 0 to " + n + " is: " + sumTillNum(n));
+
+//OR
+
+function sumTillNumForLoop (number){
+    let sum = 0;
+    for (let counter =0; counter <= number; counter = counter + 1) {
+        sum = sum + counter;
+        if (counter === number){
+            return sum;
+        }
+    } 
+}
+console.log(sumTillNumForLoop(n));
