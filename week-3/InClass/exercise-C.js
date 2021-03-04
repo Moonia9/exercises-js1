@@ -5,7 +5,7 @@ const formattedMentors = mentors.map(function tidy(name){
     return name.trim().toLowerCase();
 });
 
-console.log(formattedMentors);
+console.log(formattedMentors); //returns [ 'daniel', 'irina', 'gordon', 'asleigh' ]
 
 
 
@@ -40,7 +40,6 @@ function abracaFunction(yourFunc) {
     ];
   
     const abracaOutput = yourFunc(abracaArray);
-  
     return abracaOutput;
   }
 
@@ -52,7 +51,6 @@ function abracaFunction(yourFunc) {
     "Chris",
     "Antigoni",
   ];
-
 
 const abracaFunctionMutated = abracaArray.map(function toUpper(letters){
     return letters.toUpperCase();
