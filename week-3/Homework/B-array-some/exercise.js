@@ -17,11 +17,23 @@ var mentors = ["Daniel", "Irina", "Mozafar", "Luke"];
 
 var pairs = pairsByIndex.map(function(indexes) {
   if(indexes === null){
-    process.exit(1);
+    process.exit(1); 
   } 
   var student = students[indexes[0]];
   var mentor = mentors[indexes[1]];
   return [student, mentor];
 });
+
+//OR
+let check = pairsByIndex.some(function (value){
+  if(value === null){
+    process.exit(1);
+  }
+});
+
+//OR
+if(pairs.some(pair => pair === null)){
+  process.exit(1);
+}
 
 console.log(pairs);
