@@ -23,18 +23,6 @@ let newvalues = arr.forEach(function (element){
 });
 console.log(newvalues);
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* EXPECTED OUTPUT */
 
 /*
