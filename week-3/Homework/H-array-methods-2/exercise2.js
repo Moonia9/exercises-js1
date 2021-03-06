@@ -12,8 +12,11 @@ function capitalise(str) {
   return str[0].toUpperCase() + str.slice(1);
 }
 
+//OR
 function capitalise(str){
-  return str.split("")[0].toUpperCase() //.join();
+  let letters = str.split("");
+  letters[0] = letters[0].toUpperCase();
+  return letters.join("");
 }
 
 /* 
