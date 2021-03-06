@@ -8,14 +8,18 @@
 */
 
 function capitalise(str) { 
-  return str.charAt(0).toUpperCase() + str.slice(1);
+  //return str.charAt(0).toUpperCase() + str.slice(1);
+  return str[0].toUpperCase() + str.slice(1);
+}
+
+function capitalise(str){
+  return str.split("")[0].toUpperCase() //.join();
 }
 
 /* 
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */
 var name = "daniel";
-
 console.log(capitalise(name));
 console.log(capitalise("hello"));
 
