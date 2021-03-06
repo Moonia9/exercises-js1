@@ -15,3 +15,8 @@ let numbersByOneHundred = numbers.map(number => {
 
 //OR
 let numbersMultiplied = numbers.map(number => number * 100);
+
+//Or
+let numbersMultipliedBy100 = numbers
+.map((num) => num * 100)
+.forEach((num) => console.log(num));
