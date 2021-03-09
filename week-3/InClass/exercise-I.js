@@ -60,3 +60,4 @@ let string = (arr) => {
 }
 console.log(arrStrings);
 string(array);
+
