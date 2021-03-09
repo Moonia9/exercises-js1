@@ -7,7 +7,10 @@
   NOTE: only the names should be returned, not the means of transport.
 */
 
-function journeyPlanner() {
+function journeyPlanner(names) {
+  return names
+              .map((value) => value[0])
+
 }
 
 /* ======= TESTS - DO NOT MODIFY ===== */
