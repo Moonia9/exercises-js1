@@ -7,8 +7,9 @@
   NOTE: only the names should be returned, not the means of transport.
 */
 
-function journeyPlanner(names) {
+function journeyPlanner(names,string) {
   return names
+              .filter((value) => value.includes(string))
               .map((value) => value[0])
 
 }
